@@ -1,0 +1,17 @@
+body{
+    background-color: #EAF6F6;
+}
+
+h1, h3, h2{
+    color: #41afaf;
+}
+
+hr{
+     /*this style is not applying on hr means hr has some default css values so lets search on browser what is the default css for hr element, by searching you got to know that hr has just border style and it has no height thats why it bg can't be set to white. 
+    so lets remove border style, and give it some height */
+    border-style: dotted none none none;
+    border-width: 5px 0 0 0;
+    border-color: grey;
+    /* height: 0px; */
+    width: 5%;
+}
